@@ -21,7 +21,7 @@ def merge_sort(data) -> None:
       else:
         data[k] = right_array[j]
         j += 1
-        k += 1
+      k += 1
 
     while i < len(left_array):
       data[k] = left_array[i]
